@@ -1,7 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-v2.0 | 20110126
-License: none (public domain)
-*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,7 +43,7 @@ table {
     border-spacing: 0;
 }
 
-root {
+:root {
 --dough: #D9C4A3; 
 --chocolate-chip: #704214;
 --crust: #C27D45;
@@ -55,12 +52,10 @@ root {
 body {
     display: grid;
     grid-template-columns: 1fr;
-    }
-
+}
     @media screen and (min-width:941px) {
     body {
-        grid-template-columns: fr;      
+        grid-template-columns: 1f 1fr;      
     }
     }
 
-    
